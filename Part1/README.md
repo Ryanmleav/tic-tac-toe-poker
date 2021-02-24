@@ -105,7 +105,7 @@ In this step, we will reassign value of the `player` from `X` to `O` when the bo
 <summary> <code> /index.js </code> </summary>
 
 ```js
-function play() {
+function play(clickedId) {
   const playerSpan = document.getElementById('player');
 
   if (playerSpan.innerText === 'X') {
